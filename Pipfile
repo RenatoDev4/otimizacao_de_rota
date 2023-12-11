@@ -1,0 +1,23 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+pandas = "*"
+chardet = "*"
+seaborn = "*"
+folium = "*"
+plotly = "*"
+osmnx = "*"
+networkx = "*"
+ortools = "*"
+black = {extras = ["jupyter"], version = "*"}
+scikit-learn = "*"
+nbformat = "*"
+
+[dev-packages]
+ipykernel = "*"
+
+[requires]
+python_version = "3.11"
